@@ -16,5 +16,5 @@ def read_root():
       {"role": "user", "content": "Where was it played?"}
     ]
   )
-  return JSONResponse(content=response)
+  return JSONResponse(content=str(response))
 
